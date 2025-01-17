@@ -3,7 +3,7 @@ class Board
     def initialize
         @board_state = [" "," "," "," "," "," "," "," "," "]
     end
-    def set_board_state(symbol,pos)
+    def place_symbol(symbol,pos)
         @board_state[pos-1] = symbol
     end
     def print_guide
