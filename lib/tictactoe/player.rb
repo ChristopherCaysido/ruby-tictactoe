@@ -9,11 +9,8 @@ class Player
   end
 
   def player_symbol
-    return symbol
+    symbol
   end
 
-  def get_move=(row,col)
-    move_row = row
-    move_col = col
-  end
+  def get_move=(row, col); end
 end
